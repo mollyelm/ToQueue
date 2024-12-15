@@ -4,7 +4,7 @@
   "description": "Submitted by: Molly Moulton (directory id: mollyem) Group Members: Nader Atta-Allah (nattaall), Nikila Surapaneni (nsurapan) App Description: Allows users to create a video queue and keep track of their video stats. YouTube Video Link: LINK APIs: [YT-API](https://rapidapi.com/ytjar/api/yt-api) Contact Email:  nattaall@terpmail.umd.edu",
   "main": "videoQueue.js",
   "scripts": {
-    "start": "node videoQueue.js"
+    "start": "node src/videoQueue.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,8 +13,6 @@
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
-    "express-session": "^1.18.1",
-    "helmet": "^8.0.0",
     "mongodb": "^6.12.0"
   }
 }

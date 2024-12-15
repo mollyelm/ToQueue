@@ -17,7 +17,7 @@ const portNumber = 4000;
 const collectionUsers = "videoUsers";
 const collectionQueue = "videoQueue";
 const database = "CMSC335DB";
-const uri = process.env.MONGO_CONNECTION_STRING;
+const uri = "mongodb+srv://m1:kiscy9-vamgoc@cluster0.qggff.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 videos = [];
 user = "";
